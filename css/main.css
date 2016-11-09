@@ -5,47 +5,49 @@
     padding: 0;
 }
 .container{
-    width: 100%;
-    max-width: 1200px;
+    width: 700px;
     margin: 0px auto;
 }
 
-.logo {
-    width: 40%;
-     margin-bottom: 30px; 
+.img_layout {
+    width: 100%;
 }
-.menu_layout li {
+.nav_lay ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+    margin: 15px auto;
+    text-align: center;
+    
+}
+.nav_lay li {
     display: inline-block;
-    padding: 5px 20px;
-    font-size: 17px;
+    font-size: 20px;
+}
+.nav_lay li a{
+    text-decoration: none;
+    display: inline-block;
+    color: #000;
+    padding: 12px;
+}
+.nav_lay li:after{
+    content: "│"; 
+}
+.nav_lay li:last-child:after{
+    content: "";
 }
 
-.menu_layout ul{
-    margin: auto;
-    text-align: center;
-    width: 470px;
-    border-top: 1px solid #000;
-    border-bottom: 1px solid #000;
-}
-.menu_layout a{
-    text-decoration: none;
-    color: #000;
-}
-.layout_grupal {
-    margin: 20px;
-    width: 31.5%;
-}
 .layout_hr1 {
     width: 40px;
     border: 1px solid gray;
-    margin:auto;
+    margin:20px auto;
 }
 .layout_parrafo{
     width: 300px;
-    margin: auto;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin: 10px auto;
+    
 }
 .layout_parrafo p {
     text-align: center;
@@ -53,19 +55,16 @@
 .layout_hr2{
     width: 40px;
     border: 1px solid gray;
-    margin: auto;
+    margin: 20px auto;
 }
 
 .layout_h1 {
     font-size: 20px;
-    margin-left: 260px;
 }
 .lista_linea1{
    border: 2px solid #000;
-    margin-left: 260px;
     width: 60px;
-    margin-bottom: 20px;
-    margin-top: 10px;
+    margin: 20px 0;
 }
 .lista_layout{
     width:700px; 
@@ -98,18 +97,18 @@
 /*-------------------------------FIN DE 1RA PARTE*/
 
 /*-------------------------------INICIO DE 2DA PARTE*/
-.wrapper_pag2{
+.wrapper_pag2, .wrapper_pag3, .wrapper_pag4, .wrapper_page5, .wrapper_page6{
     width: 55%;
     margin: auto;
     border: 2px solid gray;
     padding: 15px;
 }
-.img1_pag2{
+.img1_pag2, .img1_pag3,.img1_pag4, .img1_pag5, .img1_pag6 {
     border-radius: 100%;
     display: block;
     margin: auto;
 }
-.h1_pag2{
+.h1_pag2 {
     text-align: center;
     margin: auto;
     font-size: 35px;
