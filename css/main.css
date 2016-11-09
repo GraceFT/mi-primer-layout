@@ -1,1 +1,153 @@
-/* Ingresa tu css aqui */
+/*-----------------------------INICIO DE 1RA PARTE*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.logo {
+    width: 40%;
+     margin-bottom: 30px; 
+}
+.menu_layout li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px 20px;
+    font-size: 17px;
+}
+
+.menu_layout ul{
+    margin: auto;
+    text-align: center;
+    width: 470px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+.menu_layout a{
+    text-decoration: none;
+    color: #000;
+}
+.layout_grupal {
+    margin: 20px;
+    width: 31.5%;
+}
+.layout_hr1 {
+    width: 40px;
+    border: 1px solid gray;
+    margin:auto;
+}
+.layout_parrafo{
+    width: 300px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.layout_parrafo p {
+    text-align: center;
+}
+.layout_hr2{
+    width: 40px;
+    border: 1px solid gray;
+    margin: auto;
+}
+
+.layout_h1 {
+    font-size: 20px;
+    margin-left: 260px;
+}
+.lista_linea1{
+   border: 2px solid #000;
+    margin-left: 260px;
+    width: 60px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.lista_layout{
+    width:700px; 
+    margin: auto;
+}
+
+.lista_layout ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.lista_layout ul li{
+    display: inline-block;
+    position: relative;
+    margin: 8px;
+    background-color: #000;
+}
+.lista_layout p{
+    color: #fff;
+    margin: 8px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.lista_layout img {
+    opacity: 0.8;
+    display: block;
+}
+
+/*-------------------------------FIN DE 1RA PARTE*/
+
+/*-------------------------------INICIO DE 2DA PARTE*/
+.wrapper_pag2{
+    width: 55%;
+    margin: auto;
+    border: 2px solid gray;
+    padding: 15px;
+}
+.img1_pag2{
+    border-radius: 100%;
+    display: block;
+    margin: auto;
+}
+.h1_pag2{
+    text-align: center;
+    margin: auto;
+    font-size: 35px;
+    margin: 10px;
+}
+.wrapper_pag2 p {
+    text-align: center;
+    margin: 30px;
+}
+.page2_list ul{
+    list-style: none;
+}
+.page2_list li{
+    margin: 15px;
+    padding: 15px;
+    background-color: gray;
+    color: #fff;
+}
+.page2_list li:nth-child(1){width: 70%}
+.page2_list li:nth-child(2){width: 50%}
+.page2_list li:nth-child(3){width: 30%}
+
+.page2_img{
+    width: 100%;
+    margin: auto;
+}
+.page2_img ul{
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+}
+.page2_img li {
+    display: inline-block;
+    margin: 5px; 
+}
+.page2_img img{
+    width:200px;
+    display: block;
+}
+/*-------------------------------FIN DE 2DA PARTE*/
+
